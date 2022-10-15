@@ -1,0 +1,484 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+     <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Want to achive the desired IELTS Score?</h1>
+          <h2>Your gateway to the world of opportunties is right here!</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <h3><a href="/contact_us" class="btn-get-started scrollto">Enroll Now</a></h3>
+
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img"  data-aos-delay="200">
+          <img src="{% static 'img/l1.png' %}" class="img-fluid animated" alt="" >
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+<!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients clients">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <img src="{% static 'img/idp.png' %}" class="img-fluid" alt="" data-aos="zoom-in">
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <img src="{% static 'img/idpc.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-6">
+            <img src="{% static 'img/ieltsc.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <img src="{% static 'img/bcc.png' %}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+<!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Why Choose Learning point?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+              </p>
+              <div class="text-center">
+                <a href="/contact_us" class="more-btn">Enroll Now <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fa fa-trophy"></i>
+                    <h4>Since</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fa fa-clock-o"></i>
+                    <h4>Flexible timings</h4>
+                    <p>Early morning and evening batches available</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fa fa-line-chart"></i>
+                    <h4>Excellent results</h4>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Our Courses</h2>
+          <p>We are providing these courses</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><img class="card-img-top" src="{% static 'img/ielts.png' %}" alt="Card image cap"></div>
+              <h4 class="title"><a href="">IELTS</a></h4>
+              <p class="description">IELTS is an English language test for study, migration or work.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><img class="card-img-top" src="{% static 'img/SE.png' %}" alt="Card image cap"></div>
+              <h4 class="title"><a href="">SPOKEN ENGLISH</a></h4>
+              <p class="description">The ways in which the English language is transmitted through a conventional system of sounds.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><img class="card-img-top" src="{% static 'img/pte.png' %}" alt="Card image cap"></div>
+              <h4 class="title"><a href="">PTE</a></h4>
+              <p class="description">PTE stands for Pearson Test of English. It is an international computer-based English Competency test. </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><img class="card-img-top" src="{% static 'img/pte.png' %}" alt="Card image cap"></div>
+              <h4 class="title"><a href="">UK VI</a></h4>
+              <p class="description">UK Visas and Immigration is a division of the Home Office responsible for the United Kingdom's visa system.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
+      <div class="container">
+           <div class="section-title" data-aos="fade-up">
+          <h2>Find Latest Blogs</h2>
+<!--          <p>We are providing these courses</p>-->
+        </div>
+        <div class="row">
+          {% for obj in latest %}
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card mb-4" style='background-image: url("{{ obj.thumbnail.url }}");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a></h5>
+<!--                <p class="card-text">{{ obj.timestamp }}</p>-->
+                <p class="card-text">{{ obj.overview|linebreaks|truncatechars:100 }}</p>
+                <div class="read-more"><a href="{{ obj.get_absolute_url }}"><i class="fa fa-arrow-right"></i> Read More</a><span><i>{{ obj.timestamp }}</i></span></div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        </div>
+          <div class="py-5 text-center"><a href="/blog" class="btn btn-dark px-5 py-3 text-uppercase">View More Articles <i class="fa fa-arrow-right"></i></a></div>
+      </div>
+      </div>
+    </section><!-- End More Services Section -->
+<!-- ======= Stories Section ======= -->
+<section id="stories" class="more-services">
+    <div class="container">
+         <div class="section-title" data-aos="fade-up">
+        <h2>Find Success Stories</h2>
+          <p>You Trusted, We Delivered</p>
+      </div>
+      <div class="row">
+        {% for story in latest_stories %}
+        <div class="col-md-4 mb-4">
+          <div class="bg-white rounded shadow-sm"><img src="{{ story.thumbnail.url }}" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="{{ story.get_absolute_url }}" class="text-dark">{{ story.student_name }}</a></h5>
+              <p class="small text-muted mb-0">{{ story.student_overview }}</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                <p class="small mb-0"><i class="fa fa-star mr-2"></i><span class="font-weight-bold">Band Score</span></p>
+                <div class="badge badge-info px-3 rounded-pill font-weight-normal">{{ story.band_score }}</div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+          {% endfor %}
+      </div>
+      </div>
+        <div class="py-5 text-center"><a href="/story" class="btn btn-dark px-5 py-3 text-uppercase">View More Stories <i class="fa fa-arrow-right"></i></a></div>
+    </div>
+    </div>
+  </section><!-- End Stories Section -->
+<!-- ======= Features Section ======= -->
+    <section id="features" class="features no-padding-top">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Features of Learning Point</h2>
+          <p>We are providing these features</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="fa fa-check-square" style="color: #ffbb2c;"></i>
+              <h3><a href="">Lorem Ipsum </a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="fa fa-check-square" style="color: #5578ff;"></i>
+              <h3><a href="">Dolor Sitema</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+              <h3><a href="">Sed perspiciatis</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+              <h3><a href="">Magni Dolores</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <h3><a href="">Nemo Enim</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+              <h3><a href="">Eiusmod Tempor</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+              <h3><a href="">Midela Teren</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+              <h3><a href="">Pira Neve</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-anchor-line" style="color: #b2904f;"></i>
+              <h3><a href="">Dirada Pack</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-disc-line" style="color: #b20969;"></i>
+              <h3><a href="">Moton Ideal</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-base-station-line" style="color: #ff5828;"></i>
+              <h3><a href="">Verdo Park</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="">Flavor Nivelanda</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- Divider Section-->
+    <section style="background: url({% static 'img/divider-bg.jpg' %}); background-size: cover; background-position: center bottom" class="divider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2><a href="#" class="hero-link">View More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+<!--<section>-->
+<!--<div class="container">-->
+
+<!--      <div class="row py-5">-->
+<!--        <div class="col-lg-12 mx-auto">-->
+<!--          <div class="bg-light text-center text-Black  p-5 shadow-sm rounded banner">-->
+<!--            <div class="section-title" data-aos="fade-up">-->
+<!--          <h2>Latest Success Stories</h2>-->
+<!--          <p class="lead">You Trusted, We Delivered</p>-->
+
+<!--        </div>-->
+<!--            <h4>Straight From Our Students</h4>-->
+
+
+
+
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; End &ndash;&gt;-->
+
+<!--      <div class="row">-->
+<!--        &lt;!&ndash; Gallery item &ndash;&gt;-->
+<!--          {% for story in latest_stories %}-->
+<!--        <div class="col-md-4 mb-4">-->
+<!--          <div class="bg-white rounded shadow-sm"><img src="{{ story.thumbnail.url }}" alt="" class="img-fluid card-img-top">-->
+<!--            <div class="p-4">-->
+<!--              <h5> <a href="#" class="text-dark">{{ story.student_name }}</a></h5>-->
+<!--              <p class="small text-muted mb-0">{{ story.student_overview }}</p>-->
+<!--              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">-->
+<!--                <p class="small mb-0"><i class="fa fa-star mr-2"></i><span class="font-weight-bold">Band Score</span></p>-->
+<!--                <div class="badge badge-success px-3 rounded-pill font-weight-normal">{{ story.band_score }}</div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--          {% endfor %}-->
+<!--        &lt;!&ndash; End &ndash;&gt;-->
+
+
+<!--      </div>-->
+<!--      <div class="py-5 text-right"><a href="/story" class="btn btn-dark px-5 py-3 text-uppercase">more success stories</a></div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!-- </section>-->
+
+<!-- &lt;!&ndash; Top categories section &ndash;&gt;-->
+<!--    <section class="py-5 bg-light">-->
+<!--      <div class="container py-4">-->
+<!--        <header class="mb-5 text-center">-->
+<!--          <h2 class="display-4">Where we can IELTS take you</h2>-->
+
+<!--        </header>-->
+<!--        <div class="row text-center gy-5">-->
+<!--          <div class="col-lg-2 col-md-4 col-sm-6">-->
+<!--              <div class="col-md-4"><a class="text-reset" href="post.html"><img class="mb-4" src="{% static 'img/Aus.png' %}" alt="" height="150">-->
+<!--                  <h3 class="h5">Australia</h3></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-2 col-md-4 col-sm-6">-->
+<!--              <div class="col-md-4"><a class="text-reset" href="post.html"><img class="mb-4" src="{% static 'img/nz-06.png' %}" alt="" height="150">-->
+<!--                  <h3 class="h5">New Zealand</h3></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-2 col-md-4 col-sm-6">-->
+<!--              <div class="col-md-4"><a class="text-reset" href="post.html"><img class="mb-4" src="{% static 'img/ca-06.png' %}" alt="" height="150">-->
+<!--                  <h3 class="h5">Canada</h3></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-2 col-md-4 col-sm-6">-->
+<!--              <div class="col-md-4"><a class="text-reset" href="post.html"><img class="mb-4" src="{% static 'img/gb-06.png' %}" alt="" height="150">-->
+<!--                  <h3 class="h5">United Kingdom</h3></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-2 col-md-4 col-sm-6">-->
+<!--              <div class="col-md-4"><a class="text-reset" href="post.html"><img class="mb-4" src="{% static 'img/us-06.png' %}" alt="" height="150">-->
+<!--                  <h3 class="h5">Australia</h3></a>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+<!--&lt;!&ndash; Demo header&ndash;&gt;-->
+  <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+{% endblock content %}
